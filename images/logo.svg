@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Background: Night Sky -->
+  <rect x="0" y="0" width="200" height="200" fill="#001832" />
+
+  <!-- Moon -->
+  <circle cx="30" cy="30" r="20" fill="#e1e1e1" />
+
+  <!-- Roller Coaster Track -->
+  <rect x="30" y="60" width="140" height="10" fill="#4a4a4a" />
+
+  <!-- Roller Coaster Cars -->
+  <rect x="40" y="50" width="20" height="20" fill="#333" />
+  <rect x="70" y="50" width="20" height="20" fill="#333" />
+  <rect x="100" y="50" width="20" height="20" fill="#333" />
+  <rect x="130" y="50" width="20" height="20" fill="#333" />
+
+  <!-- Roller Coaster Supports -->
+  <rect x="40" y="60" width="10" height="40" fill="#4a4a4a" />
+  <rect x="70" y="60" width="10" height="40" fill="#4a4a4a" />
+  <rect x="100" y="60" width="10" height="40" fill="#4a4a4a" />
+  <rect x="130" y="60" width="10" height="40" fill="#4a4a4a" />
+
+  <!-- Trees or Other Elements -->
+  <rect x="10" y="90" width="10" height="30" fill="#333" />
+  <rect x="30" y="90" width="10" height="30" fill="#333" />
+  <rect x="160" y="90" width="10" height="30" fill="#333" />
+  <rect x="180" y="90" width="10" height="30" fill="#333" />
+</svg>
