@@ -23,7 +23,43 @@
         </nav>
     </header>
     <main>
-       
+       <section id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19863.180481378968!2d-0.09328510000000449!3d51.51509535000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487603554edf8de1%3A0x40eae2da2ec66d0!2sCity%20of%20London!5e0!3m2!1sen!2suk!4v1702463317874!5m2!1sen!2suk" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       </section>
+       <section id="form">
+            <h2>Contact Us</h2>
+            <form action="www.example.com" method="post">
+                <fieldset class="personal_info">
+                    <label for="full-name">Name <input id="full-name" type="text" required></label>
+                    <label for="email-id">Email <input id="email-id" type="email" required></label>
+                    <label for="age"> Age<input id="age" type="number"></label>
+                </fieldset>
+                <fieldset class="radio">
+                    <legend>Would you recommend us to a friend?</legend>
+                    <label for="op1"><input type="radio" name="refer" id="op1"> Absolutely!</label>
+                    <label for="op2"><input type="radio" name="refer" id="op2"> Maybe</label>
+                    <label for="op3"><input type="radio" name="refer" id="op3"> Not sure</label>
+                </fieldset>
+                <fieldset class="dropdown">
+                    <legend>What is your inquiry category?</legend>
+                    <select name="favourites" >
+                        <option value="">Choose your question type</option>
+                        <option value="1">Booking Inquiries</option>
+                        <option value="2">Complaints</option>
+                        <option value="3">Site Inquiry</option>
+                        <option value="4">Feedback</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Your Question</legend>
+                    <textarea name="end_review" id="comment" cols="30" rows="10"></textarea>
+
+                    </textarea>
+                </fieldset>
+                <button type="submit">Submit</button>
+            </form>
+       </section>
     </main>
     <footer>
         <ul>
