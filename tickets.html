@@ -7,17 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ticket Booking</title>
     <link rel="icon" href="./images/tab_icon/favicon-32x32.png">
+    <link rel="stylesheet" href="global.css">
+
 </head>
 <body>
     <header>
-        <img src="./images/logo.svg" alt="Theme Park Website Logo" >
-        <h1>Enchanted Gardens Theme Park</h1>
+        <div id="top_bar">
+            <img id="site_logo" src="./images/logo.svg" alt="Theme Park Website Logo" >
+            <h1>Enchanted Gardens Theme Park</h1>
+        </div>
+
+        <!--Scroll up to the top-->
+        <div id="scroll"></div>
+
         <nav>
             <ul>
-                <li>Home</li>
-                <li>Tickets</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tickets.html">Tickets</a></li>
                 <li>Attractions</li>
-                <li>About Us</li>
+                <li><a href="aboutUs.html">About Us</a></li>
             </ul>
         </nav>
     </header>
@@ -112,7 +120,7 @@
     </main>
     <footer>
         <ul>
-            <li>Scroll Up Top</li>
+            <li><a href="#scroll">Scroll Up Top</a></li>
             <li>Tickets</li>
             <li>Attraction</li>
             <li>About Us</li>
