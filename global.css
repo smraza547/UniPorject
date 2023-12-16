@@ -64,6 +64,23 @@ footer a{
     padding: 1rem 15rem;
 }
 
+button{
+    display: block;
+    font-size: 1.2rem;
+    width: 80%;
+    margin: 25px auto;
+    height:4rem;
+    background-color: rgb(216, 79, 0);
+    color:white;
+    font-weight: 600;
+    border-radius: 10px;
+
+}
+button:active{
+    background-color: white;
+    color:black;
+}
+
 footer{
     background-color: orange;
     border-radius: 30px;
