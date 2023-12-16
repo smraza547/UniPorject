@@ -1,3 +1,12 @@
+@media screen and (max-width: 680px) {
+    #img_gallery{
+        grid-template-columns: 1fr !important;
+    }
+    figure >img{
+        height:30vh;
+    }
+}
+
 #promo{
     width:93%;
     margin:3vh auto;
@@ -13,9 +22,7 @@
     width: 70%;
     margin:auto;
 }
-main{
-    margin:1.5vh;
-}
+
 #img_gallery figure{
     margin:0;
 }
