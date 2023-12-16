@@ -1,14 +1,3 @@
-@media screen and (max-width: 750px) {
-    form{
-        font-size: 1rem;
-    }
-    body{
-        width: 90vw;
-        margin:auto;
-    }
-}
-
-
 #map, #form{
     width: 90%;
     margin: 2vh auto;
@@ -56,7 +45,8 @@ button:active{
 form{
     background-color:rgb(85, 21, 1);
     opacity: 0.95;
-    width: 100%;
+    width: 90%;
+    margin: 2vh auto;
     margin-bottom: 2vh;
     color:white;
     box-shadow: 0 0 60px;
@@ -96,4 +86,10 @@ fieldset select{
     font-size: 2rem;
     height: 5vh;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 356px) {
+    form, fieldset select, button{
+        font-size: 1rem;
+    }
 }
