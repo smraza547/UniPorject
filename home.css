@@ -7,10 +7,35 @@
     background-size:cover;
     font-size: 1.5rem;
     border-radius: 25px;
+    box-shadow: 20px 20px 60px maroon;
 }
 #promo h2{
     width: 70%;
     margin:auto;
+}
+main{
+    margin:1.5vh;
+}
+#img_gallery figure{
+    margin:0;
+}
+
+figure >img{
+    width: 100%;
+    height:55vh;
+    border-radius: 25px;;
+    box-shadow: 0 0 40px whitesmoke;
+}
+
+#img_gallery{
+    display: grid;
+    margin:1vh auto;
+    width: 90%;
+    justify-items: stretch;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1vw;
+    row-gap: 1vh;
 }
 button{
     display: block;

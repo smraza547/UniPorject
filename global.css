@@ -1,3 +1,9 @@
+@media screen and (max-width: 1253px) {
+    nav>ul{
+        font-size: 1.5em;
+        padding:0.8rem 0;
+    }
+  }
 @font-face {
     font-family: RoboticFont;
     src: url(./fonts/Silkscreen/Silkscreen-Regular.ttf);
@@ -44,14 +50,12 @@ ul{
 nav>ul{
     display: flex;
     padding:1.5rem 0;
-    position: sticky;
-    top: 0;
     background-color: orange;
     font-size: 2em;
     width: 95%;
     margin: auto;
     height: 6vh;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 nav a{
