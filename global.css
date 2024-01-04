@@ -37,11 +37,17 @@ a:hover{
     width: 100px;
     border-radius: 50%;
 }
-#top_bar{
+#top_bar a{
     display: flex;
     justify-content: center;
     align-items:flex-start;
 }
+#top_bar a:hover {
+    background-color: inherit;
+    color: inherit;
+    border-radius: inherit;
+}
+    
 ul{
     list-style: none;
 }
