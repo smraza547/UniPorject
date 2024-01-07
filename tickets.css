@@ -1,7 +1,7 @@
 .ticket {
     width: 75%; /* Adjust as needed */
     padding: 2rem;
-    box-shadow: 0 2px 2px 0 rgb(28 103 88), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+    box-shadow: 0 2px 2px 0 rgb(223, 196, 108), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
     border-radius: 3rem;
     cursor: pointer;
     display: flex;
@@ -12,7 +12,7 @@
 }
 
 .ticket:hover {
-    background-color: #dcffcc;
+    background-color: #e0a26d;
 }
 
 .ticket:hover ul {
@@ -22,7 +22,7 @@
 .ticket h3 {
     font-size: 1.12rem;
     margin-bottom: 1rem;
-    color: #1c6758;
+    color: #fafad2;
 }
 
 .ticket ul {
@@ -76,7 +76,7 @@
 .title h2 {
     text-align: center;
     font-size: 2rem;
-    color: #1c6758;
+    color: #fafad2;;
 }
 
 #ticket_prices {
@@ -95,5 +95,7 @@
 }
 
 hr {
-    width: 70%; /* Adjust as needed */
+    width: 80%; /* Adjust as needed */
+    margin-left: auto;
+    margin-right: 0;
 }
