@@ -30,13 +30,13 @@
 
 figure >img{
     width: 100%;
-    height:55vh;
+    height: 40vh;
     border-radius: 25px;;
-    box-shadow: 0 0 40px whitesmoke;
+    box-shadow: 0 0 20px whitesmoke;
 }
 
 figure >img:hover{
-    transform: scale(1.1);
+    transform: scale(1.02);
 }
 
 #img_gallery{
